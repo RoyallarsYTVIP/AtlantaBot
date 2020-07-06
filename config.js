@@ -3,8 +3,8 @@ module.exports = {
 	token: "NzI2MzcwMjM3NTkwNjY3MzY0.XwMA4g.maPpLaTbla-TY6dwN_ptAUvy1J8",
 	/* For the support server */
 	support: {
-		id: "726453351453163651", // The ID of the support server
-		logs: "714921631016943747", // And the ID of the logs channel of your server (new servers for example)
+		id: "", // The ID of the support server
+		logs: "", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
@@ -206,11 +206,11 @@ module.exports = {
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "@testbot help on {serversCount} servers",
 			type: "LISTENING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
+			name: "my website : none working :)",
 			type: "PLAYING"
 		}
 	],
