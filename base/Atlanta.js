@@ -7,7 +7,7 @@ class Atlanta extends Client {
 
     constructor (options) {
         super(options);
-        this.config = require("../config"); // Load the config file
+        this.config = require("../config.js"); // Load the config file
         this.commands = new Collection(); // Creates new commands collection
         this.aliases = new Collection(); // Creates new command aliases collection
         this.logger = require("../helpers/logger"); // Load the logger file
