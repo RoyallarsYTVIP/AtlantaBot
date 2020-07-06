@@ -1,4 +1,4 @@
-const config = require("../config"),
+const config = require("../config.js"),
 Discord = require("discord.js"),
 utils = require("./utils"),
 CheckAuth = require("./auth/CheckAuth"),
