@@ -7,7 +7,7 @@ mongoose = require("mongoose");
 
 // Load Atlanta class
 const Atlanta = require("./base/Atlanta"),
-client = new Atlanta();
+client = new Discord.Client();
 
 const init = async () => {
 
